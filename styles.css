@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Karla";
+    background-color: #1f2937;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 900;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1 > span {
+    color: #4adf86;
+}
+
+h2 {
+    font-weight: 300;
+    color: #d5d4d8;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#master {
+    width: 550px;
+    margin: 25px auto;
+}
+
+#heading {
+    border-bottom: 1px solid #2f3e53;
+
+    padding: 25px 0;
+}
+
+button {
+    padding: 9px 16px;
+
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #10b981;
+}
+
+#passwords {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pass-container {
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 1em 0.2em;
+    width: 140px;
+    /* height: 25px; */
+    background-color: #273549;
+    color: #55f991;
+    text-align: center;
+
+    font-size: 0.6em;
+}
+
+.pass-container > span {
+    color: #273549;
+}
+#btn-and-length {
+    display: flex;
+    justify-content: space-between;
+    /* height:32px; */
+}
+
+#btn-and-length > div {
+    display: flex;
+}
+
+#btn-and-length > div > label {
+    padding: 9px 16px;
+    /* text-align: right; */
+}
+#btn-and-length > div > input {
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#btn-and-length > div > input:focus {
+    outline: none;
+}
+
+#checks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#checks > div {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+input[type="checkbox"] {
+    /* margin-top: 5px; */
+    background-color: #10b981;
+    accent-color: #10b981;
+    transform: scale(1.5);
+}
+
+label {
+    /* margin-bottom: 5px; */
+    margin-left: 10px;
+    /* bottom: 10px; */
+}

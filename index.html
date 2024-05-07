@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="master">
+            <div id="heading">
+                <h1>Generate a <span>random password</span></h1>
+                <h2>Never use an insecure password again.</h2>
+                <div id="btn-and-length">
+                    <button id="generate-password">Generate Passwords</button>
+                    <div>
+                        <label for="password-length">Character length</label>
+                        <input
+                            name="password-length"
+                            type="number"
+                            value="15"
+                            id="password-length"
+                        />
+                    </div>
+                </div>
+                <div id="checks">
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="special-characters"
+                            id="special-characters-check"
+                            checked="checked"
+                        />
+                        <label for="special-characters"
+                            >Special Characters</label
+                        >
+                    </div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="numbers"
+                            id="numbers-check"
+                            checked="checked"
+                        />
+                        <label for="numbers">Numbers</label>
+                    </div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="capital-letters"
+                            id="capital-letters-check"
+                            checked="checked"
+                        />
+                        <label for="capital-letters">Capital letters</label>
+                    </div>
+                </div>
+            </div>
+            <div id="passwords">
+                <div class="pass-container" id="password-container-one">
+                    <span> generated-pass </span>
+                </div>
+                <div class="pass-container" id="password-container-two">
+                    <span> generated-pass </span>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
